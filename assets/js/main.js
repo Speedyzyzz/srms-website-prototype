@@ -295,6 +295,18 @@ async function loadGallery() {
                     </div>
                 </div>`;
         }
+        if (item.src.includes('youtube.com/embed')) {
+            return `
+                <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: 16/9;">
+                    <iframe src="${escHtml(item.src)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; display:block; border-radius:12px;"></iframe>
+                </div>`;
+        }
+        if (item.src.match(/\.(mp4|mov)$/i)) {
+            return `
+                <div class="gallery-item" data-category="${escHtml(item.category)}">
+                    <video src="${escHtml(item.src)}" controls loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block; border-radius:12px;"></video>
+                </div>`;
+        }
         return `
             <div class="gallery-item" data-category="${escHtml(item.category)}">
                 <img src="${escHtml(item.src)}" alt="${escHtml(item.alt)}" loading="lazy">

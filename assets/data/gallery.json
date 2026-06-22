@@ -25,18 +25,66 @@
   },
   {
     "id": 4,
-    "title": "Kindergarten Graduation",
-    "category": "events",
-    "src": "assets/images/gallery/gallery_3.webp",
-    "alt": "Kindergarten graduation ceremony",
+    "title": "Field Trip",
+    "category": "activities",
+    "src": "assets/images/gallery/WhatsApp_Image_2026-06-22_at_19.56.53.jpeg",
+    "alt": "Field trip pic",
     "placeholder": false
   },
   {
     "id": 5,
-    "title": "Student Activities",
-    "category": "facilities",
-    "src": "assets/images/gallery/gallery_4.webp",
-    "alt": "Students engaged in activities",
+    "title": "Annual Day Performance 1",
+    "category": "events",
+    "src": "assets/images/gallery/WhatsApp_Image_2026-06-22_at_19.57.46.jpeg",
+    "alt": "Annual day pic 1",
+    "placeholder": false
+  },
+  {
+    "id": 6,
+    "title": "Annual Day Performance 2",
+    "category": "events",
+    "src": "assets/images/gallery/WhatsApp_Image_2026-06-22_at_19.59.02.jpeg",
+    "alt": "Annual day pic 2",
+    "placeholder": false
+  },
+  {
+    "id": 7,
+    "title": "Brick Breaking Practice",
+    "category": "activities",
+    "src": "https://www.youtube.com/embed/isagnPy2mQE",
+    "alt": "Martial arts practice",
+    "placeholder": false
+  },
+  {
+    "id": 8,
+    "title": "Student Activities Video",
+    "category": "activities",
+    "src": "https://www.youtube.com/embed/I_0Wn_OrgjI",
+    "alt": "Student activities",
+    "placeholder": false
+  },
+  {
+    "id": 9,
+    "title": "School Event Video 1",
+    "category": "events",
+    "src": "https://www.youtube.com/embed/3xruXyA1kWc",
+    "alt": "Event video",
+    "placeholder": false
+  },
+  {
+    "id": 10,
+    "title": "School Event Video 2",
+    "category": "events",
+    "src": "https://www.youtube.com/embed/byXxQE-6-2M",
+    "alt": "Event video",
+    "placeholder": false
+  },
+  {
+    "id": 11,
+    "title": "Science Innovation",
+    "category": "academics",
+    "src": "https://www.youtube.com/embed/GZR73Ok3aXU",
+    "alt": "Science project video",
     "placeholder": false
   }
 ]
