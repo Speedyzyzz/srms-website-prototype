@@ -51,7 +51,7 @@
     "id": 7,
     "title": "Brick Breaking Practice",
     "category": "activities",
-    "src": "https://www.youtube-nocookie.com/embed/isagnPy2mQE?autoplay=1&mute=1&loop=1&playlist=isagnPy2mQE&controls=1&modestbranding=1&rel=0&iv_load_policy=3",
+    "src": "assets/videos/video_1.mp4",
     "alt": "Martial arts practice",
     "placeholder": false,
     "isShort": true
@@ -60,7 +60,7 @@
     "id": 8,
     "title": "Student Activities Video",
     "category": "activities",
-    "src": "https://www.youtube-nocookie.com/embed/I_0Wn_OrgjI?autoplay=1&mute=1&loop=1&playlist=I_0Wn_OrgjI&controls=1&modestbranding=1&rel=0&iv_load_policy=3",
+    "src": "assets/videos/video_2.mp4",
     "alt": "Student activities",
     "placeholder": false,
     "isShort": true
@@ -69,7 +69,7 @@
     "id": 9,
     "title": "School Event Video 1",
     "category": "events",
-    "src": "https://www.youtube-nocookie.com/embed/3xruXyA1kWc?autoplay=1&mute=1&loop=1&playlist=3xruXyA1kWc&controls=1&modestbranding=1&rel=0&iv_load_policy=3",
+    "src": "assets/videos/video_3.mp4",
     "alt": "Event video",
     "placeholder": false,
     "isShort": true
@@ -78,7 +78,7 @@
     "id": 10,
     "title": "School Event Video 2",
     "category": "events",
-    "src": "https://www.youtube-nocookie.com/embed/byXxQE-6-2M?autoplay=1&mute=1&loop=1&playlist=byXxQE-6-2M&controls=1&modestbranding=1&rel=0&iv_load_policy=3",
+    "src": "assets/videos/video_4.mp4",
     "alt": "Event video",
     "placeholder": false,
     "isShort": false
@@ -87,7 +87,7 @@
     "id": 11,
     "title": "Science Innovation",
     "category": "academics",
-    "src": "https://www.youtube-nocookie.com/embed/GZR73Ok3aXU?autoplay=1&mute=1&loop=1&playlist=GZR73Ok3aXU&controls=1&modestbranding=1&rel=0&iv_load_policy=3",
+    "src": "assets/videos/video_5.mp4",
     "alt": "Science project video",
     "placeholder": false,
     "isShort": true

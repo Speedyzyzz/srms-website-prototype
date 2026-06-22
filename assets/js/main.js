@@ -295,20 +295,14 @@ async function loadGallery() {
                     </div>
                 </div>`;
         }
-        if (item.src.includes('youtube.com/embed') || item.src.includes('youtube-nocookie.com/embed')) {
+        if (item.src.match(/\.(mp4|mov)$/i)) {
             const aspect = item.isShort ? '9/16' : '16/9';
             return `
                 <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: ${aspect}; overflow: hidden; border-radius: 12px; background: #000; position: relative;">
-                    <!-- Physically push the top 60px out of the container to hide the title, keeping the bottom controls intact -->
-                    <iframe src="${escHtml(item.src)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: calc(100% + 60px); margin-top: -60px; display: block; border: none;"></iframe>
+                    <video src="${escHtml(item.src)}" controls muted preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 12px;"></video>
                 </div>`;
         }
-        if (item.src.match(/\.(mp4|mov)$/i)) {
-            return `
-                <div class="gallery-item" data-category="${escHtml(item.category)}">
-                    <video src="${escHtml(item.src)}" controls loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block; border-radius:12px;"></video>
-                </div>`;
-        }
+
         return `
             <div class="gallery-item" data-category="${escHtml(item.category)}">
                 <img src="${escHtml(item.src)}" alt="${escHtml(item.alt)}" loading="lazy">
