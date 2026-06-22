@@ -298,8 +298,11 @@ async function loadGallery() {
         if (item.src.includes('youtube.com/embed') || item.src.includes('youtube-nocookie.com/embed')) {
             const aspect = item.isShort ? '9/16' : '16/9';
             return `
-                <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: ${aspect}; overflow: hidden; border-radius: 12px; background: #000;">
-                    <iframe src="${escHtml(item.src)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; display:block;"></iframe>
+                <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: ${aspect}; overflow: hidden; border-radius: 12px; background: #000; position: relative;">
+                    <!-- Transparent overlay to completely block interaction -->
+                    <div style="position: absolute; inset: 0; z-index: 10;"></div>
+                    <!-- Scaled iframe to push the YouTube title and logos completely off-screen -->
+                    <iframe src="${escHtml(item.src)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; display:block; pointer-events:none; transform: scale(1.35);"></iframe>
                 </div>`;
         }
         if (item.src.match(/\.(mp4|mov)$/i)) {
