@@ -3,157 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shrimathi Ranganayaki Ammal School | Gallery</title>
-    <meta name="description" content="View snapshots of classroom activities, yoga sessions, karate classes, Vidyaarambham ceremony, and campus life. Upload-ready photo gallery.">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Photo Gallery | Shrimathi Ranganayaki Ammal School, Coimbatore</title>
+    <meta name="description" content="Browse the SRA School photo gallery — karate, yoga, STEAM, Robotics, Sporty Beans, Braindemics, play area, school events, and student life at our Coimbatore campus.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sraschool.in/gallery.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Photo Gallery | SRA School Coimbatore">
+    <meta property="og:description" content="School life, events, karate, yoga, and activities gallery at Shrimathi Ranganayaki Ammal School.">
+    <meta property="og:image" content="https://sraschool.in/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://sraschool.in/gallery.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/images/logo.webp" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/logo.webp">
 </head>
 <body>
 
-    <!-- Header Navbar Placeholder (Dynamic via layout.js) -->
-    <div id="header-placeholder"></div>
+    <header class="main-header" id="main-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo-area" aria-label="SRA School Home">
+                <div class="logo-wrapper"><img src="assets/images/logo.webp" alt="SRA School Logo" onerror="this.src='assets/images/logo-fallback.svg';this.onerror=null;" class="school-logo-img"><div class="logo-fallback" style="display:none;"><svg width="40" height="40" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="48" fill="#C62828" stroke="#fff" stroke-width="2"/><text x="50" y="58" font-family="Georgia,serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle">SRA</text></svg></div></div>
+                <div class="logo-text"><span class="school-title">Shrimathi Ranganayaki Ammal</span><span class="school-subtitle">Nursery &amp; Primary School</span></div>
+            </a>
+            <nav class="desktop-nav" aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link" data-page="index">Home</a></li>
+                    <li><a href="about.html" class="nav-link" data-page="about">About Us</a></li>
+                    <li><a href="academics.html" class="nav-link" data-page="academics">Academics</a></li>
+                    <li><a href="admissions.html" class="nav-link" data-page="admissions">Admissions</a></li>
+                    <li><a href="events.html" class="nav-link" data-page="events">Events</a></li>
+                    <li><a href="gallery.html" class="nav-link" data-page="gallery">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="admissions.html" class="btn btn-primary btn-nav-cta">Enquire Now</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+            </div>
+        </div>
+        <div class="mobile-nav-drawer" role="dialog" aria-label="Mobile navigation">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-link" data-page="index">Home</a></li>
+                <li><a href="about.html" class="mobile-link" data-page="about">About Us</a></li>
+                <li><a href="academics.html" class="mobile-link" data-page="academics">Academics</a></li>
+                <li><a href="admissions.html" class="mobile-link" data-page="admissions">Admissions</a></li>
+                <li><a href="events.html" class="mobile-link" data-page="events">Events</a></li>
+                <li><a href="gallery.html" class="mobile-link" data-page="gallery">Gallery</a></li>
+                <li><a href="contact.html" class="mobile-link" data-page="contact">Contact</a></li>
+                <li><a href="admissions.html" class="btn btn-primary btn-mobile-cta">Enquire Now</a></li>
+            </ul>
+        </div>
+    </header>
 
-    <!-- Inner Page Banner Header -->
-    <section class="section section-bg-dark" style="padding: 9rem 0 5rem 0; background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);">
-        <div class="container text-center animate-on-scroll" style="text-align: center;">
-            <span class="tag" style="color:var(--gold);">Moments</span>
-            <h1 style="color:var(--white); margin-bottom: 0.5rem;">School Photo Gallery</h1>
-            <p style="color:var(--text-muted); font-size:1.1rem; margin-bottom: 0;">Snapshots of classrooms, kids yoga, karate demos, and ceremonies</p>
+    <!-- Inner Page Banner -->
+    <section class="section section-bg-dark" style="padding:9rem 0 5rem 0; background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);">
+        <div class="container text-center animate-on-scroll">
+            <span class="tag" style="color:rgba(255,255,255,0.65);">Photo Gallery</span>
+            <h1 style="color:var(--white); margin-bottom:0.5rem;">School Life in Pictures</h1>
+            <p style="color:rgba(255,255,255,0.65); font-size:1.1rem; margin-bottom:0;">Karate, Yoga, STEAM, Robotics, play areas and precious school moments</p>
         </div>
     </section>
 
-    <!-- Gallery Grid with Category Filters -->
+    <!-- Gallery with Filter -->
     <section class="section">
         <div class="container">
-            
-            <!-- Filters menu -->
-            <div class="gallery-filters animate-on-scroll">
-                <button class="filter-btn active" data-filter="all">All Photos</button>
-                <button class="filter-btn" data-filter="classrooms">Classrooms</button>
-                <button class="filter-btn" data-filter="yoga">Yoga Sessions</button>
-                <button class="filter-btn" data-filter="karate">Karate Classes</button>
-                <button class="filter-btn" data-filter="events">Events & Ceremonies</button>
+            <!-- Filter buttons rendered from JSON categories -->
+            <div class="gallery-filters" id="galleryFilters">
+                <div class="loading-placeholder" style="width:100%;"><div class="loading-spinner"></div></div>
             </div>
 
-            <!-- Photos Grid -->
-            <div class="gallery-grid animate-zoom">
-                
-                <!-- Item 1: Classrooms -->
-                <div class="gallery-item" data-category="classrooms">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                        <span>Interactive KG Session</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-kg-class.jpg</p>
-                    </div>
-                </div>
-
-                <!-- Item 2: Yoga -->
-                <div class="gallery-item" data-category="yoga">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="3"/><path d="M12 8v8M9 11h6M10 21h4"/></svg>
-                        <span>Morning Children's Yoga</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-yoga-kids.jpg</p>
-                    </div>
-                </div>
-
-                <!-- Item 3: Karate -->
-                <div class="gallery-item" data-category="karate">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15h3M18 9h3M12 3v18M3 9h3M3 15h3"/></svg>
-                        <span>Weekly Karate Demo</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-karate-demo.jpg</p>
-                    </div>
-                </div>
-
-                <!-- Item 4: Events -->
-                <div class="gallery-item" data-category="events">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                        <span>Vidyaarambham Ceremony</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-vidyaarambham.jpg</p>
-                    </div>
-                </div>
-
-                <!-- Item 5: Classrooms -->
-                <div class="gallery-item" data-category="classrooms">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M21 15L16 10 5 21"/></svg>
-                        <span>Primary Standard 3 Play-based math</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-primary-math.jpg</p>
-                    </div>
-                </div>
-
-                <!-- Item 6: Yoga -->
-                <div class="gallery-item" data-category="yoga">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0"/></svg>
-                        <span>Breathing & Focus Exercises</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-meditation.jpg</p>
-                    </div>
-                </div>
-
-                <!-- Item 7: Karate -->
-                <div class="gallery-item" data-category="karate">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z"/></svg>
-                        <span>Primary Standards Self-Defense</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-self-defense.jpg</p>
-                    </div>
-                </div>
-
-                <!-- Item 8: Events -->
-                <div class="gallery-item" data-category="events">
-                    <div class="placeholder-img">
-                        <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></svg>
-                        <span>Annual School Celebrations</span>
-                        <p style="font-size:0.7rem; margin-top:0.35rem; color:var(--text-light);">Placeholder: assets/gallery-annual-day.jpg</p>
-                    </div>
-                </div>
-
+            <!-- Gallery grid rendered from JSON -->
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="loading-placeholder" style="grid-column:1/-1;"><div class="loading-spinner"></div><p>Loading gallery...</p></div>
             </div>
 
+            <!-- Upload Callout (placeholder while real photos are pending) -->
+            <div style="margin-top:4rem; background:var(--primary-soft); border:2px dashed rgba(198,40,40,0.25); border-radius:24px; padding:4rem; text-align:center;">
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom:1rem;"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M21 15L16 10 5 21"/><circle cx="8.5" cy="8.5" r="1.5"/></svg>
+                <h3 style="color:var(--primary-dark); margin-bottom:0.75rem;">More Photos Coming Soon</h3>
+                <p style="color:var(--text-light); max-width:500px; margin:0 auto;">Classroom, activity, and event photos will be added shortly. For an immediate tour, <a href="contact.html" style="color:var(--primary); font-weight:700;">contact us</a> or visit the school.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Footer Placeholder (Dynamic via layout.js) -->
-    <div id="footer-placeholder"></div>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand"><a href="index.html" class="footer-logo-area"><div class="logo-wrapper"><img src="assets/images/logo.webp" alt="SRA School Logo" onerror="this.src='assets/images/logo-fallback.svg';this.onerror=null;" class="school-logo-img"><div class="logo-fallback" style="display:none;"><svg width="36" height="36" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="48" fill="#C62828" stroke="#fff" stroke-width="2"/><text x="50" y="58" font-family="Georgia,serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle">SRA</text></svg></div></div><div class="logo-text"><span class="school-title">Shrimathi Ranganayaki Ammal</span><span class="school-subtitle">Nursery &amp; Primary School</span></div></a><p class="footer-tagline">"Mother's Touch" — Estd. 2005. Nurturing young minds in Coimbatore.</p></div>
+            <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="academics.html">Academics</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="events.html">Events &amp; Circulars</a></li><li><a href="gallery.html">Photo Gallery</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p class="address">
+                    <strong>SRA School</strong><br>
+                    62, L. M. School Street,<br>
+                    Pappanaicken Palayam,<br>
+                    Coimbatore &ndash; 641037<br>
+                    <em style="font-size:0.82rem;color:rgba(255,255,255,0.45);">Near DMK Mandram</em>
+                </p>
+                <p class="meta">
+                    <span style="display:block; margin-bottom:0.5rem;"><strong style="color:rgba(255,255,255,0.75);">Phone / WhatsApp:</strong><br><a href="tel:+919952569111">+91 99525 69111</a></span>
+                    <span style="display:block; margin-bottom:0.5rem;"><strong style="color:rgba(255,255,255,0.75);">Email:</strong><br><a href="mailto:info@sraschool.in">info@sraschool.in</a></span>
+                    <span style="display:block;"><strong style="color:rgba(255,255,255,0.75);">Timings:</strong><br>Mon - Sat: 8:30 AM to 4:00 PM</span>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; <script>document.write(new Date().getFullYear())</script> Shrimathi Ranganayaki Ammal Nursery &amp; Primary School. All Rights Reserved.</p></div>
+    </footer>
 
-    <!-- Scripts -->
-    <script src="js/layout.js"></script>
-    <script>
-        // Interactive Category Filter Logic
-        document.addEventListener('DOMContentLoaded', () => {
-            const filters = document.querySelectorAll('.filter-btn');
-            const items = document.querySelectorAll('.gallery-item');
-
-            filters.forEach(filter => {
-                filter.addEventListener('click', () => {
-                    // Toggle active filter button
-                    filters.forEach(btn => btn.classList.remove('active'));
-                    filter.classList.add('active');
-
-                    const category = filter.getAttribute('data-filter');
-
-                    // Filter images with custom animation
-                    items.forEach(item => {
-                        item.style.transition = 'transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease';
-                        
-                        if (category === 'all' || item.getAttribute('data-category') === category) {
-                            item.style.display = 'block';
-                            setTimeout(() => {
-                                item.style.opacity = '1';
-                                item.style.transform = 'scale(1)';
-                            }, 50);
-                        } else {
-                            item.style.opacity = '0';
-                            item.style.transform = 'scale(0.8)';
-                            setTimeout(() => {
-                                item.style.display = 'none';
-                            }, 400);
-                        }
-                    });
-                });
-            });
-        });
-    </script>
+    <a href="https://wa.me/919952569111?text=Hello%2C%20I%20was%20browsing%20the%20photo%20gallery%20of%20SRA%20School%20and%20would%20like%20to%20know%20more%20about%20admissions." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.172.198-.296.298-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    </a>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

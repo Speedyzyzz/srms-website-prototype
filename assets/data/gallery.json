@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Director's Message",
+    "category": "events",
+    "src": "assets/images/gallery/gallery_0.webp",
+    "alt": "Message from the Director of SRA School",
+    "placeholder": false
+  },
+  {
+    "id": 2,
+    "title": "Principal's Desk",
+    "category": "events",
+    "src": "assets/images/gallery/gallery_1.webp",
+    "alt": "Message from the Principal of SRA School",
+    "placeholder": false
+  },
+  {
+    "id": 3,
+    "title": "Admission Ad",
+    "category": "events",
+    "src": "assets/images/gallery/gallery_2.webp",
+    "alt": "SRA School Admission Details",
+    "placeholder": false
+  },
+  {
+    "id": 4,
+    "title": "Kindergarten Graduation",
+    "category": "events",
+    "src": "assets/images/gallery/gallery_3.webp",
+    "alt": "Kindergarten graduation ceremony",
+    "placeholder": false
+  },
+  {
+    "id": 5,
+    "title": "Student Activities",
+    "category": "facilities",
+    "src": "assets/images/gallery/gallery_4.webp",
+    "alt": "Students engaged in activities",
+    "placeholder": false
+  }
+]

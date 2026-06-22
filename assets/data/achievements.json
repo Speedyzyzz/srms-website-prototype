@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "icon": "🏆",
+    "title": "State-Level Karate Championship",
+    "description": "Our students secured top positions at the State-Level Karate Championship, bringing pride and glory to the school.",
+    "category": "karate"
+  },
+  {
+    "id": 2,
+    "icon": "🥇",
+    "title": "District-Level Karate Medals",
+    "description": "Multiple students won medals at district-level karate competitions, reflecting years of dedicated practice and coaching.",
+    "category": "karate"
+  },
+  {
+    "id": 3,
+    "icon": "🧘",
+    "title": "District Yoga Championship",
+    "description": "Our school team clinched top positions at the District-Level Yoga Championship, showcasing excellence in wellness and discipline.",
+    "category": "yoga"
+  },
+  {
+    "id": 4,
+    "icon": "🌍",
+    "title": "World Yoga Day Performance",
+    "description": "Students performed beautifully at the World Yoga Day celebrations, representing the school on an international observance stage.",
+    "category": "yoga"
+  },
+  {
+    "id": 5,
+    "icon": "♻️",
+    "title": "World Environment Day Initiative",
+    "description": "Students created inspiring recyclable art projects on World Environment Day, promoting sustainability and environmental responsibility.",
+    "category": "environment"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "icon": "🥋",
+    "title": "Karate",
+    "description": "Supervised karate classes led by qualified instructors, building physical agility, discipline, confidence, and self-defense awareness from an early age."
+  },
+  {
+    "id": 2,
+    "icon": "🧘",
+    "title": "Yoga & Wellness",
+    "description": "Daily morning yoga and mindfulness sessions to improve concentration, breathing, posture, emotional balance, and overall wellbeing in young learners."
+  },
+  {
+    "id": 3,
+    "icon": "⚽",
+    "title": "Sporty Beans",
+    "description": "A fun, structured multi-sport activity programme designed to introduce children to teamwork, coordination, and sportsmanship through games and drills."
+  },
+  {
+    "id": 4,
+    "icon": "🏃",
+    "title": "Edu Sports",
+    "description": "Educational sports sessions that blend physical activity with learning objectives — nurturing motor skills, focus, and healthy competition."
+  },
+  {
+    "id": 5,
+    "icon": "🔬",
+    "title": "STEAM Training",
+    "description": "Hands-on Science, Technology, Engineering, Art, and Math activities that spark curiosity, problem-solving, and creative thinking from the very first years."
+  },
+  {
+    "id": 6,
+    "icon": "🤖",
+    "title": "Robotics (Lego Building)",
+    "description": "Age-appropriate robotics sessions using Lego building kits, introducing children to engineering concepts, logic, and collaborative creation in a playful environment."
+  },
+  {
+    "id": 7,
+    "icon": "🧠",
+    "title": "Braindemics — Visual Learning",
+    "description": "Visual and interactive class sessions that make complex concepts easy and memorable through storytelling, maps, diagrams, and engaging audiovisual tools."
+  },
+  {
+    "id": 8,
+    "icon": "🌳",
+    "title": "Pre KG / LKG Play Area",
+    "description": "A dedicated, safe, and age-appropriate play area exclusively for Pre KG and LKG students — designed to encourage exploration and imaginative play."
+  },
+  {
+    "id": 9,
+    "icon": "🎠",
+    "title": "Full Play Area (Ages 5–8)",
+    "description": "A full-fledged outdoor play area for primary school children aged 5 to 8 years, equipped with activity stations that develop gross motor skills and social confidence."
+  }
+]

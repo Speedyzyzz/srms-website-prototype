@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "echo 'No build required'"
+  },
+  "devDependencies": {
+    "vercel": "^54.14.0"
+  }
+}

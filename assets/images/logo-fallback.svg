@@ -1,0 +1,78 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shrimathi Ranganayaki Ammal School Logo">
+  <title>SRA School — Est. 2005</title>
+  <defs>
+    <radialGradient id="sra-bg" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#E53935"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+    <filter id="sra-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="rgba(0,0,0,0.25)"/>
+    </filter>
+  </defs>
+
+  <!-- Drop shadow -->
+  <circle cx="100" cy="102" r="90" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- Main badge circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#sra-bg)" filter="url(#sra-shadow)"/>
+
+  <!-- Outer decorative rings -->
+  <circle cx="100" cy="100" r="87" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Top five-pointed star emblem -->
+  <g transform="translate(100, 26)">
+    <polygon points="0,-11 2.9,-4 10.5,-4 4.8,1.1 6.9,8.5 0,4.5 -6.9,8.5 -4.8,1.1 -10.5,-4 -2.9,-4"
+             fill="rgba(255,255,255,0.80)"/>
+  </g>
+
+  <!-- Decorative side dots -->
+  <circle cx="30" cy="100" r="3" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="170" cy="100" r="3" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="37" cy="74" r="2" fill="rgba(255,255,255,0.18)"/>
+  <circle cx="163" cy="74" r="2" fill="rgba(255,255,255,0.18)"/>
+
+  <!-- Open book illustration -->
+  <g transform="translate(100, 100)">
+    <!-- Book spine -->
+    <rect x="-2.5" y="-28" width="5" height="46" rx="2" fill="rgba(255,255,255,0.95)"/>
+
+    <!-- Left page -->
+    <path d="M-2.5 -26 Q-22 -30 -36 -20 L-36 18 Q-22 11 -2.5 18 Z"
+          fill="rgba(255,255,255,0.88)"/>
+
+    <!-- Right page -->
+    <path d="M2.5 -26 Q22 -30 36 -20 L36 18 Q22 11 2.5 18 Z"
+          fill="rgba(255,255,255,0.72)"/>
+
+    <!-- Left page ruled lines -->
+    <line x1="-30" y1="-14" x2="-5" y2="-16" stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <line x1="-30" y1="-6"  x2="-5" y2="-7"  stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <line x1="-30" y1=" 2"  x2="-5" y2=" 1"  stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <line x1="-30" y1="10"  x2="-5" y2=" 9"  stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- Right page ruled lines -->
+    <line x1="30" y1="-14" x2="5" y2="-16" stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.45"/>
+    <line x1="30" y1="-6"  x2="5" y2="-7"  stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.45"/>
+    <line x1="30" y1=" 2"  x2="5" y2=" 1"  stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.45"/>
+    <line x1="30" y1="10"  x2="5" y2=" 9"  stroke="#B71C1C" stroke-width="1.8" stroke-linecap="round" opacity="0.45"/>
+  </g>
+
+  <!-- Divider rule -->
+  <rect x="34" y="152" width="132" height="1.5" rx="1" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- School initials -->
+  <text x="100" y="176"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="24" font-weight="700"
+        fill="white"
+        letter-spacing="7">SRA</text>
+
+  <!-- Established year -->
+  <text x="100" y="192"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10" fill="rgba(255,255,255,0.55)"
+        letter-spacing="3.5">EST. 2005</text>
+</svg>

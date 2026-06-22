@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Admissions Open 2026-2027",
+    "category": "Admissions",
+    "date": "2026-06-01",
+    "displayDate": "Jun 01",
+    "icon": "📢",
+    "body": "Admissions are now open for Pre KG to Std V for the academic year 2026-2027. Pre KG eligibility: 2.5 years and above. Limited seats available — enquire today!",
+    "keywords": "admissions open prekg lkg ukg primary 2026 2027 seats available",
+    "link": "admissions.html"
+  },
+  {
+    "id": 2,
+    "title": "Vidyaarambham Ceremony 2026",
+    "category": "Event Spotlight",
+    "date": "2026-10-20",
+    "displayDate": "Oct 20",
+    "icon": "📅",
+    "body": "Join us for the traditional Vidyaarambham learning initiation ceremony on Vijayadashami. Children are formally introduced to the world of alphabets, numbers, and reading. Special enrollment incentives apply for registrations on this day.",
+    "keywords": "vidyaarambham ceremony learning initiation vijayadashami october dussehra 2026",
+    "link": "events.html"
+  },
+  {
+    "id": 3,
+    "title": "World Yoga Day Performance",
+    "category": "Achievement",
+    "date": "2025-06-21",
+    "displayDate": "Jun 21",
+    "icon": "🧘",
+    "body": "Our students proudly participated in the World Yoga Day celebrations, showcasing exceptional discipline, focus, and wellness in front of a large gathering.",
+    "keywords": "yoga day performance achievement world international june",
+    "link": "events.html"
+  },
+  {
+    "id": 4,
+    "title": "State-Level Karate Championship",
+    "category": "Achievement",
+    "date": "2025-05-15",
+    "displayDate": "May 15",
+    "icon": "🥋",
+    "body": "Congratulations to our students who brought home medals from the State-Level Karate Championship and District-Level competitions. A proud moment for the entire school family!",
+    "keywords": "karate championship state district medals achievement sports",
+    "link": "events.html"
+  },
+  {
+    "id": 5,
+    "title": "World Environment Day Initiative",
+    "category": "Activity",
+    "date": "2025-06-05",
+    "displayDate": "Jun 05",
+    "icon": "♻️",
+    "body": "Our students took part in a recyclable art and awareness initiative on World Environment Day, creating beautiful craft projects from recycled materials to promote sustainability.",
+    "keywords": "environment day recycle craft initiative green activity june",
+    "link": "events.html"
+  },
+  {
+    "id": 6,
+    "title": "New Academic Year Circular",
+    "category": "Circular",
+    "date": "2025-06-10",
+    "displayDate": "Jun 10",
+    "icon": "📚",
+    "body": "Parents are requested to collect the learning kits and uniforms for Pre KG, LKG, UKG, and classes Std I–V. Please visit the school office between 8:30 AM and 4:00 PM.",
+    "keywords": "circular academic year books kit uniforms collection primary standards",
+    "link": "events.html"
+  },
+  {
+    "id": 7,
+    "title": "District-Level Yoga Championship Win",
+    "category": "Achievement",
+    "date": "2025-04-20",
+    "displayDate": "Apr 20",
+    "icon": "🏅",
+    "body": "Our school team won medals at the District-Level Yoga Championship, reflecting the dedication of our students and the excellence of our wellness programme.",
+    "keywords": "yoga championship district medal achievement wellness",
+    "link": "events.html"
+  }
+]
