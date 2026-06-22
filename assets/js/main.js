@@ -296,9 +296,10 @@ async function loadGallery() {
                 </div>`;
         }
         if (item.src.includes('youtube.com/embed')) {
+            const aspect = item.isShort ? '9/16' : '16/9';
             return `
-                <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: 16/9;">
-                    <iframe src="${escHtml(item.src)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; display:block; border-radius:12px;"></iframe>
+                <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: ${aspect}; overflow: hidden; border-radius: 12px; background: #000;">
+                    <iframe src="${escHtml(item.src)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; display:block;"></iframe>
                 </div>`;
         }
         if (item.src.match(/\.(mp4|mov)$/i)) {
