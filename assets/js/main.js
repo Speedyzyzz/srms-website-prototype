@@ -295,7 +295,7 @@ async function loadGallery() {
                     </div>
                 </div>`;
         }
-        if (item.src.includes('youtube.com/embed')) {
+        if (item.src.includes('youtube.com/embed') || item.src.includes('youtube-nocookie.com/embed')) {
             const aspect = item.isShort ? '9/16' : '16/9';
             return `
                 <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: ${aspect}; overflow: hidden; border-radius: 12px; background: #000;">
