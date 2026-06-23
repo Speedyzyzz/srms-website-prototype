@@ -48,48 +48,48 @@
     "placeholder": false
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Brick Breaking Practice",
     "category": "activities",
-    "src": "assets/videos/video_1.mp4",
-    "alt": "Martial arts practice",
+    "src": "assets/videos/brick-breaking.mp4",
+    "alt": "Students practicing brick breaking in martial arts",
     "placeholder": false,
-    "isShort": true
-  },
-  {
-    "id": 8,
-    "title": "Student Activities Video",
-    "category": "activities",
-    "src": "assets/videos/video_2.mp4",
-    "alt": "Student activities",
-    "placeholder": false,
-    "isShort": true
+    "isShort": false
   },
   {
     "id": 9,
-    "title": "School Event Video 1",
+    "title": "Annual Day Performance 1",
     "category": "events",
-    "src": "assets/videos/video_3.mp4",
-    "alt": "Event video",
+    "src": "assets/videos/annual-day-1.mp4",
+    "alt": "Students performing at the Annual Day event",
     "placeholder": false,
-    "isShort": true
+    "isShort": false
   },
   {
     "id": 10,
-    "title": "School Event Video 2",
+    "title": "Annual Day Performance 2",
     "category": "events",
-    "src": "assets/videos/video_4.mp4",
-    "alt": "Event video",
+    "src": "assets/videos/annual-day-2.mp4",
+    "alt": "Another performance at the Annual Day event",
     "placeholder": false,
     "isShort": false
   },
   {
     "id": 11,
-    "title": "Science Innovation",
-    "category": "academics",
-    "src": "assets/videos/video_5.mp4",
-    "alt": "Science project video",
+    "title": "Annual Day Performance 3",
+    "category": "events",
+    "src": "assets/videos/annual-day-3.mp4",
+    "alt": "A group performance at the Annual Day event",
     "placeholder": false,
-    "isShort": true
+    "isShort": false
+  },
+  {
+    "id": 12,
+    "title": "Smart Charging System",
+    "category": "activities",
+    "src": "assets/videos/smart-charging.mp4",
+    "alt": "Smart safety charging system project by Srinish",
+    "placeholder": false,
+    "isShort": false
   }
 ]
