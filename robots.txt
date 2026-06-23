@@ -1,8 +1,8 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
 # Disallow JSON data files from being indexed directly
 Disallow: /assets/data/
 
 # Sitemap location — update domain before launch
-Sitemap: https://sraschool.in/sitemap.xml
+Sitemap: https://srnschool.com/sitemap.xml
