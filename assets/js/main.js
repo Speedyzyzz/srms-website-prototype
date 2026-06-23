@@ -299,7 +299,7 @@ async function loadGallery() {
             const aspect = item.isShort ? '9/16' : '16/9';
             return `
                 <div class="gallery-item" data-category="${escHtml(item.category)}" style="aspect-ratio: ${aspect}; overflow: hidden; border-radius: 12px; background: #000; position: relative;">
-                    <video src="${escHtml(item.src)}" controls muted preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 12px;"></video>
+                    <video src="${escHtml(item.src)}" controls controlsList="nofullscreen nodownload" disablePictureInPicture playsinline muted preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 12px;"></video>
                 </div>`;
         }
 
