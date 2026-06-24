@@ -266,7 +266,7 @@ img {
     letter-spacing: 0.01em;
 }
 
-.main-header:not(.scrolled) .school-title { color: var(--primary-dark); }
+.home-page .main-header:not(.scrolled) .school-title { color: var(--primary-dark); }
 
 .school-subtitle {
     font-size: 0.72rem;
@@ -296,7 +296,7 @@ img {
     padding: 0.5rem 0;
 }
 
-.main-header:not(.scrolled) .nav-link { color: var(--primary-dark); }
+.home-page .main-header:not(.scrolled) .nav-link { color: var(--primary-dark); }
 
 .nav-link::after {
     content: '';
@@ -346,7 +346,7 @@ img {
     display: block;
 }
 
-.main-header:not(.scrolled) .mobile-menu-toggle .bar { background-color: var(--primary-dark); }
+.home-page .main-header:not(.scrolled) .mobile-menu-toggle .bar { background-color: var(--primary-dark); }
 
 .mobile-menu-toggle.active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
 .mobile-menu-toggle.active .bar:nth-child(2) { opacity: 0; }

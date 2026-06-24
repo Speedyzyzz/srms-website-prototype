@@ -1,5 +1,5 @@
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shrimathi Ranganayaki Ammal School Logo">
-  <title>SRA School — Est. 2005</title>
+  <title>SRN School — Est. 2005</title>
   <defs>
     <radialGradient id="sra-bg" cx="50%" cy="35%" r="70%">
       <stop offset="0%" stop-color="#E53935"/>
@@ -67,7 +67,7 @@
         font-family="Georgia, 'Times New Roman', serif"
         font-size="24" font-weight="700"
         fill="white"
-        letter-spacing="7">SRA</text>
+        letter-spacing="7">SRN</text>
 
   <!-- Established year -->
   <text x="100" y="192"

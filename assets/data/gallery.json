@@ -70,7 +70,7 @@
     "title": "Director's Message",
     "category": "events",
     "src": "assets/images/gallery/gallery_0.webp",
-    "alt": "Message from the Director of SRA School",
+    "alt": "Message from the Director of SRN School",
     "placeholder": false
   },
   {
@@ -78,7 +78,7 @@
     "title": "Principal's Desk",
     "category": "events",
     "src": "assets/images/gallery/gallery_1.webp",
-    "alt": "Message from the Principal of SRA School",
+    "alt": "Message from the Principal of SRN School",
     "placeholder": false
   },
   {
@@ -86,7 +86,7 @@
     "title": "Admission Ad",
     "category": "events",
     "src": "assets/images/gallery/gallery_2.webp",
-    "alt": "SRA School Admission Details",
+    "alt": "SRN School Admission Details",
     "placeholder": false
   },
   {
@@ -226,6 +226,14 @@
     "category": "events",
     "src": "assets/images/gallery/Screenshot_20260623_151027_Instagram.jpg",
     "alt": "Instagram Highlight",
+    "placeholder": false
+  },
+  {
+    "id": 29,
+    "title": "State-Level Karate Championship",
+    "category": "events",
+    "src": "assets/images/gallery/karate.png",
+    "alt": "Students participating in Karate",
     "placeholder": false
   }
 ]

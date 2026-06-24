@@ -145,7 +145,7 @@ async function fetchJSON(file) {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return await res.json();
     } catch (err) {
-        console.warn(`[SRA] Failed to load ${file}:`, err.message);
+        console.warn(`[SRN] Failed to load ${file}:`, err.message);
         return null;
     }
 }
