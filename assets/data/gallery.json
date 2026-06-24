@@ -230,10 +230,26 @@
   },
   {
     "id": 29,
-    "title": "State-Level Karate Championship",
+    "title": "State-Level Karate Championship Award",
     "category": "events",
-    "src": "assets/images/gallery/karate.png",
+    "src": "assets/images/gallery/Award pic.jpeg",
     "alt": "Students participating in Karate",
+    "placeholder": false
+  },
+  {
+    "id": 30,
+    "title": "World Yoga Day Performance",
+    "category": "events",
+    "src": "assets/images/gallery/Yoga day.jpeg",
+    "alt": "World Yoga Day Performance",
+    "placeholder": false
+  },
+  {
+    "id": 31,
+    "title": "World Environment Day",
+    "category": "events",
+    "src": "assets/images/gallery/environment day.jpeg",
+    "alt": "World Environment Day",
     "placeholder": false
   }
 ]
